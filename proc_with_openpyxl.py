@@ -2,9 +2,6 @@ from openpyxl import load_workbook
 from openpyxl.styles import Alignment
 
 wb = load_workbook(filename='/home/yang/桌面/test.xlsx')
-#
-# wb.active['A1'] = "hello\nworld!"
-# wb.active['A1'].alignment = Alignment(wrap_text=True)
 
 # 在这里指定需要处理哪两列
 first_column_index = 'C'
